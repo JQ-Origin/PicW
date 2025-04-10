@@ -18,6 +18,11 @@ git clone https://github.com/Flysky12138/PicW.git
 cd PicW
 yarn
 ```
+## Docker安装
+```bash
+docker build -t picw .
+docker run -p 8080:80 picw
+```
 
 ## 开发
 
